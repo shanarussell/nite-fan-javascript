@@ -75,6 +75,17 @@ body {
   margin-top: 50px;
 }
 
+footer{
+  color: white;
+  text-align: center;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+  color: white;
+}
+
 /* rotation */
 .rotate {
   animation: rotate 0.75s infinite linear;

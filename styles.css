@@ -50,7 +50,7 @@ body {
 }
 
 .fan-buttons {
-  width: 70%;
+  width: 40%;
   height: 3rem;
   margin-top: 20px;
   margin-bottom: 50px;
@@ -70,6 +70,7 @@ body {
 
 .extras-wrapper {
   display: flex;
+  padding: 4rem;
   justify-content: space-between;
   margin-top: 50px;
 }

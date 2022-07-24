@@ -1,0 +1,89 @@
+body {
+  background-image: url("images/stars.png");
+  padding-top: 50px;
+}
+
+.fan-wrapper {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "fanGraphic1 fanGraphic2"
+    "fanButton1 fanButton2"
+    "fanGraphic3 fanGraphic4"
+    "fanButton3 fanButton4";
+  justify-items: center;
+  align-items: center;
+}
+
+#fan-1 {
+  grid-area: fanGraphic1;
+}
+
+#fan-button-1 {
+  grid-area: fanButton1;
+}
+
+#fan-2 {
+  grid-area: fanGraphic2;
+}
+
+#fan-button-2 {
+  grid-area: fanButton2;
+}
+
+#fan-3 {
+  grid-area: fanGraphic3;
+}
+
+#fan-button-3 {
+  grid-area: fanButton3;
+}
+
+#fan-4 {
+  grid-area: fanGraphic4;
+}
+
+#fan-button-4 {
+  grid-area: fanButton4;
+}
+
+.fan-buttons {
+  width: 70%;
+  height: 3rem;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: large;
+  border-radius: 10px;
+  background-color: #8a8989;
+  color: #c0d72f;
+}
+
+.fan-graphics {
+  height: 8rem;
+}
+
+.extras-graphics {
+  height: 4rem;
+}
+
+.extras-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+/* rotation */
+.rotate {
+  animation: rotate 0.75s infinite linear;
+}
+.paused {
+  animation-play-state: paused;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}

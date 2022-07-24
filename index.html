@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NiteFan Web</title>
+</head>
+<body>
+    <div class="fan-wrapper">
+        <div id="fan-1"><img onclick="playfan1()" src="images/icons/fan-graphic-1.png" class="fan-graphics"></div>
+        <button id="fan-button-1" onclick="playfan1()" class="fan-buttons"><b>Play Fan 1</b></button>
+        <div id="fan-2"><img onclick="playfan2()"src="images/icons/fan-graphic-2.png" class="fan-graphics"></div>
+        <button id="fan-button-2" onclick="playfan2()" class="fan-buttons"><b>Play Fan 2</b></button>
+        <div id="fan-3"><img onclick="playfan3()"src="images/icons/fan-graphic-3.png" class="fan-graphics"></div>
+        <button id="fan-button-3" onclick="playfan3()" class="fan-buttons"><b>Play Fan 3</b></button>
+        <div id="fan-4"><img onclick="playfan4()"src="images/icons/fan-graphic-4.png" class="fan-graphics"></div>
+        <button id="fan-button-4" onclick="playfan4()" class="fan-buttons"><b>Play Fan 4</b></button>
+
+    </div> <!-- end fan wrapper -->
+
+    <div class="extras-wrapper">
+        <div id="stop-all"><img onclick="stopSounds()" src="images/icons/green-mute.png" class="extras-graphics"></div>
+        <div id="click"><img onclick="playClicker()" src="images/icons/green-click.png" class="extras-graphics"></div>
+        <div id="rain"><img onclick="playRain()" src="images/icons/green-rain.png" class="extras-graphics"></div>
+        <div id="wobble"><img onclick="playWobble()" src="images/icons/green-wobble.png" class="extras-graphics"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -61,16 +61,16 @@ body {
 }
 
 .fan-graphics {
-  height: 8rem;
+  height: 14rem;
 }
 
 .extras-graphics {
-  height: 4rem;
+  height: 8rem;
 }
 
 .extras-wrapper {
   display: flex;
-  padding: 4rem;
+  padding: 3rem;
   justify-content: space-between;
   margin-top: 50px;
 }
@@ -86,5 +86,104 @@ body {
 @keyframes rotate {
   100% {
     transform: rotate(-360deg);
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .fan-graphics {
+    height: 10rem;
+  }
+
+  .extras-graphics {
+    height: 5rem;
+  }
+
+  .fan-buttons {
+    width: 70%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .fan-graphics {
+    height: 10rem;
+  }
+
+  .extras-graphics {
+    height: 5rem;
+  }
+
+  .fan-buttons {
+    width: 70%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .fan-graphics {
+    height: 10rem;
+  }
+
+  .extras-graphics {
+    height: 5rem;
+  }
+
+  .fan-buttons {
+    width: 70%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .fan-graphics {
+    height: 10rem;
+  }
+
+  .extras-graphics {
+    height: 5rem;
+  }
+
+  .fan-buttons {
+    width: 50%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .fan-graphics {
+    height: 10rem;
+  }
+
+  .extras-graphics {
+    height: 5rem;
+  }
+
+  .fan-buttons {
+    width: 45%;
+  }
+
+  body{
+    padding: 50px;
+  }
+
+  /* even bigger */
+@media only screen and (min-width: 2000px) {
+  .fan-graphics {
+    height: 15rem;
+    padding-top: 10px;
+  }
+
+  .extras-graphics {
+    height: 5rem;
+    padding: 0 100px;
+  }
+
+  .fan-buttons {
+    width: 30%;
+  }
+
+  body{
+    padding: 50px;
   }
 }
